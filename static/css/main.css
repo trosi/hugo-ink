@@ -1,34 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Rubik:wght@600;700;800&display=swap"');
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Karla", sans-serif;
     font-weight: 400;
-    color: #333;
-    line-height: 1.8em;
-    font-size: 17px;
+    color: #2A2A2A;
+    line-height: 1.4em;
+    font-size: 19px;
 }
 
 a {
-    color: #3700ff;
+    color: #B26700;
     text-decoration: none;
     word-break: break-word;
 }
-    a:hover {
-        border-bottom: 2px solid #3700ff;
-    }
+
+a:hover {
+    text-decoration: underline;
+    color: #E06D06;
+}
 
 html,button,input,select,textarea {
-    color: #333;
+    color: #2A2A2A;
 }
 
 ::-moz-selection {
-    background: #3700ff;
+    background: #B26700;;
     text-shadow: none;
     color: #fff;
 }
 
 ::selection {
-    background: #3700ff;
+    background: #B26700;;
     text-shadow: none;
     color: #fff;
 }
@@ -108,7 +110,7 @@ blockquote {
     font-size: 1.4rem;
     font-family: Georgia,bitstream charter,serif;
     border-left: 3px solid;
-    border-color: #3700ff;
+    border-color: #E06D06;
     padding-left: 20px;
 }
 
@@ -276,7 +278,7 @@ ul {
         color: #333;
     }
     .header nav.social a:hover {
-        color: #3700ff;
+        color: #E06D06;
     }
 
 .header .site-description nav {
@@ -354,7 +356,7 @@ ul {
 }
 
 .post .draft-label {
-    color: #3700ff;
+    color: #E06D06;
     text-decoration: none;
     padding: 2px 4px;
     border-radius: 4px;
@@ -364,10 +366,10 @@ ul {
 
 .post .tags a {
     display: inline-block;
-    border: 1px solid #3700ff;
+    border: 1px solid #E06D06;
     border-radius: 3px;
     padding: 0px 6px;
-    color: #3700ff;
+    color: #E06D06;
     line-height: 20px;
     font-size: 0.85em;
     text-decoration: none;
@@ -391,7 +393,7 @@ ul {
         color: #666;
     }
     .footer a:hover {
-        color: #3700ff;
+        color: #E06D06;
     }
 
 .tag-cloud {
