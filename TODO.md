@@ -1,0 +1,2 @@
+- add left padding to navigation menu so that it lines up with blog title and posts
+- hover color not working, can't understand why ?_?

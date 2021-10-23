@@ -32,10 +32,11 @@ html.dark h6 {
   color: #ddd;
 }
 
-html.dark a,a:hover {
+/*html.dark a,a:hover {
   color: #9375fd;
   text-decoration: none;
 }
+*/
 
 html.dark table tbody tr:nth-of-type(even) {
   background-color: rgba(255, 255, 255, 0.15);

@@ -1,45 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Rubik:wght@600;700;800&display=swap"');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Rubik:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
+
+:root {
+    --light-background: #FDFFFC;
+    --light-text: #011627;
+    --light-accent: #218B81;
+    --light-hover: #ff9f1c;
+    --light-selection: #E71D36;
+    --light-hr: #DAEEFE;
+    --light-footer: #0460AC;
+/*    --dark-background: #FDFFFC;
+    --dark-text: #011627;
+    --dark-accent: #2EC4b6;
+    --dark-hover: #E71D36;
+    --dark-selection: #FF9F1C;
+    --dark-hr: #DAEEFE;
+    --dark-footer: #0460AC;
+*/}
 
 body {
     font-family: "Karla", sans-serif;
     font-weight: 400;
-    color: #2A2A2A;
+    color: var(--light-text);
     line-height: 1.4em;
     font-size: 19px;
 }
 
 a {
-    color: #B26700;
+    color: var(--light-accent);
     text-decoration: none;
     word-break: break-word;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #E06D06;
+    color: var(--light-hover) !important;
 }
 
 html,button,input,select,textarea {
-    color: #2A2A2A;
+    color: var(--light-text);
 }
 
 ::-moz-selection {
-    background: #B26700;;
+    background: var(--light-selection);
     text-shadow: none;
-    color: #fff;
+    color: white;
 }
 
 ::selection {
-    background: #B26700;;
+    background: var(--light-selection);
     text-shadow: none;
-    color: #fff;
+    color: white;
 }
 
 hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid var(--light-hr);
     margin: 1rem 0;
     padding: 0;
 }
@@ -64,6 +82,8 @@ fieldset {
     margin: 0;
     padding: 0;
 }
+
+/*TABLES***********************************************************************/
 
 table {
   -ms-overflow-style: -ms-autohiding-scrollbar;
@@ -97,20 +117,24 @@ table tbody tr:nth-of-type(even) {
 table th {
   background-color: #212529;
   border-color: #32383e;
-  color: #fff;
+  color: white;
 }
 
 textarea {
     resize: vertical;
 }
 
+
+/*BLOCKQUOTES******************************************************************/
+
 blockquote {
     margin-left: 1rem;
-    font-style: italic;
     font-size: 1.4rem;
-    font-family: Georgia,bitstream charter,serif;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-style: italic;
     border-left: 3px solid;
-    border-color: #E06D06;
+    border-color: #E71D36;
     padding-left: 20px;
 }
 
@@ -124,8 +148,10 @@ blockquote em {
 }
 
 
+/*HEADINGS*********************************************************************/
+
 h1, h2, h3, h4, h5, h6 {
-    color: #333;
+    color: var(--light-text);
     font-weight: 500;
     line-height: 1.3em;
     margin: 30px 0 20px 0;
@@ -278,7 +304,7 @@ ul {
         color: #333;
     }
     .header nav.social a:hover {
-        color: #E06D06;
+        color: var(--light-hover);
     }
 
 .header .site-description nav {
@@ -393,7 +419,7 @@ ul {
         color: #666;
     }
     .footer a:hover {
-        color: #E06D06;
+        color: var(--light-hover);
     }
 
 .tag-cloud {
