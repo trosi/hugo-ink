@@ -1,2 +1,5 @@
 - add left padding to navigation menu so that it lines up with blog title and posts
 - hover color not working, can't understand why ?_?
+- capitalize menu or distinguish it in some other way from normal text
+- add more posts per page
+- make sure all colors are using variables
